@@ -1,0 +1,89 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.login-container {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/schedule.jpg);
+    padding: 110px 934px
+}
+
+.login {
+    background: rgb(217, 217, 217);
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 20px 0px;
+}
+
+.title {
+    background: rgb(255, 128, 0);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 87px 67px;
+    margin-bottom: 35px;
+}
+
+.username {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: cursive;
+    margin-left: 130px
+}
+
+.username-input {
+    width: 225px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 40px;
+    margin-left: 75px
+}
+
+.password {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 25px;
+    font-family: cursive;
+    margin-left: 130px;
+}
+
+.password-input {
+    width: 225px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 75px;
+}
+
+.submit-button {
+    width: 250px;
+    height: 70px;
+    margin-top: 86px;
+    font-size: 40px;
+    background: rgb(255, 128, 0);
+    border: none;
+    margin-left: 75px;
+    border-radius: 100px 100px 10px 10px;
+    font-family: cursive;
+    cursor: pointer;
+    transition: .25s linear;
+}
+
+.submit-button:hover {
+    background: rgb(255, 166, 77);
+}
+
+.todo p {
+    color: red;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login">
+            <div class="title">
+                <h1 style="font-family: cursive; font-size: 40px;">Account</h1>
+            </div>
+            <div id="error"></div>
+            <form id="form" action="/todo.html" method="GET">
+                <label for="username" class="username">Username</label><br>
+                <input type="username" class="username-input" name="username" id="username" required><br>
+                <label for="password" class="password">Password</label><br>
+                <input type="password" class="password-input" name="password" id="password" required>
+                <button type="submit" class="submit-button">Login</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="js/login.js"></script>
+</body>
+</html>
